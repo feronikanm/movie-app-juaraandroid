@@ -14,7 +14,7 @@ class FavoriteActivity : AppCompatActivity() {
         binding = ActivityFavoriteBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        supportActionBar?.title = "Favorite Movie"
+        supportActionBar?.title = "Favorite"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val favoriteSectionsPagerAdapter = FavoriteSectionsPagerAdapter(this, supportFragmentManager)
